@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="shortcut icon" href="Table.png" type="image/x-icon">
+    <style>
+       body{
+            background-image: linear-gradient( to right, rgb(11, 17, 91), rgb(28, 113, 183), black);
+            margin: auto;
+       }
+        
+        .table {
+            border-top: 2px solid orangered;
+            width: 70%;
+            padding: 1px;
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 23px;
+            box-shadow: 7px 7px 7px red, 7px 7px 7px yellow, 10px 10px 10px black;
+        }
+        
+        .table th:hover {
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: larger;
+            text-decoration: underline double;
+            text-shadow: 5px 5px 5px ;
+            
+        }
+        .table tr:nth-child(odd) {
+            background-color: rgb(238, 174, 174);
+        }
+        .table th, td {
+            font-family: 'Times New Roman', Times, serif;
+            padding: 15px;
+        }
+        .table th {
+            background-color: rgb(241, 14, 14);
+            color: black;            
+        }
+        .table tr {
+            background-color: rgb(243, 235, 255);
+            color: rgb(0, 0, 0);
+        }
+
+        h1 {
+            color: whitesmoke;
+            text-align: center;
+            text-decoration: underline double;
+        }
+        .table tr:nth-child(even):hover{
+            background-color: transparent;
+            color: white;
+            cursor: progress;
+            border: 3px black solid;
+        }
+        .table tr:nth-child(odd):hover{
+            color: rgb(6, 255, 31);
+            background-color: rgb(0, 0, 0);
+            cursor: zoom-in;
+            border: 3px solid orange;
+        }
+        tr:last-of-type{
+            border-bottom: 5px solid red;
+
+
+        }
+
+        caption{
+            font-family: Algerian;
+            color: whitesmoke;
+            text-decoration: underline dotted;
+        }
+     
+    </style>
+</head>
+<body>
+    <h1>My First Table.</h1>
+    <table class="table">
+        <caption>A Table showing my friends' names, phone numbers and emails.</caption>
+        <tr>
+            
+            <th>Name</th>
+            <th>Phone Number</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            
+            <td>Kyateka Given</td>
+            <td>23456789543</td>
+            <td>giveth@yahoo.com</td>
+        </tr>
+        <tr>
+            
+            <td>Kato Jeremiah</td>
+            <td>23456765434</td>
+            <td>katmiah@gmail.com</td>
+        </tr>
+        <tr>
+            
+            <td>Muhindo Joan</td>
+            <td>23456543456</td>
+            <td>joanmuh@outlook.com</td>
+        </tr>
+        <tr>
+            
+            <td>Loveleth Bihindo</td>
+            <td>23456676456</td>
+            <td>hindo@gmail.com</td>
+        </tr>
+        <tr>
+            
+            <td>Migaya Robert</td>
+            <td>34565456767</td>
+            <td>rovert@outlook.com</td>
+        </tr>
+        <tr>
+            
+            <td>Silver Spoon</td>
+            <td>64354676876</td>
+            <td>spolver@hotmail.com</td>
+        </tr>
+        <tr>
+            <td>Daversik Niyo</td>
+            <td>83737483543</td>
+            <td>davenik@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Kabalega Henry</td>
+            <td>23567847448</td>
+            <td>henry@gmail.com</td>
+        </tr>
+        <tr>
+            
+            <td>Siolma Trevor</td>
+            <td>64738688778</td>
+            <td>soil@gmail.com</td>
+        </tr>
+        <tr>
+            
+            <td>Holly Peace </td>
+            <td>55434546453</td>
+            <td>hollypeace@outlook.com</td>
+        </tr>
+    </table>
+    <center>
+        <p><a href="form.html" target="_blank" style=" color: whitesmoke;">Next Page</a></p>
+    </center>
+</body>
+</html>
+
